@@ -1,0 +1,10 @@
+body{
+	background-color:#162828;
+	font-family:"Lato";
+	color:#d7f8d9;
+	text-align: center;
+}
+
+#past-guesses{
+	list-style-type: none;
+}

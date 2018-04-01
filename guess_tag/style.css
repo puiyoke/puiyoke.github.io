@@ -1,0 +1,18 @@
+body{
+	background-color: #d1c1b2;
+}
+
+ul img{
+	width: 70%;
+	border:2px solid #561d34;
+}
+
+#list-data li{
+	display:inline-block;
+}
+
+#button-area button{
+	background-color: #1b1a30;
+	color:white;
+	margin-right:3px;
+}

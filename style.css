@@ -1,0 +1,157 @@
+/*creates scrollbar*/
+html{
+	overflow-y: scroll
+}
+
+/*body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	min-height: 800px;
+ 	background-size: cover;
+    position: scroll;
+}for background image*/
+
+
+
+/*for navigation*/
+.navbar{
+	display: flex;
+	list-style: none;
+	align-items:center;
+	font-family: 'Oswald';
+}
+
+.nav_bttn{
+	margin: 0 30px;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 20px;	
+}
+/*for index.html content*/
+
+#logo{
+	margin-right: auto;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+.welcome{
+	background-color: #edeff4;
+	font-family: 'Oswald';
+	font-size: 70px;
+	text-align: center;
+	margin-top: 120px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*for about me.html*/
+
+.container1{
+	display:flex;
+	align-items:center;
+	font-family: 'Oswald';
+	align-content: center;
+	margin-top: 120px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	background-color: #edeff4;
+
+
+}
+
+#profile_pic{
+	height: 200px;
+	border-radius: 20px;
+}
+
+.picture1{
+	margin:0 50px;
+	border: solid black 5px;
+}
+
+strong{
+	font-size: 40px
+}
+
+#intro{
+	font-size: 18px
+}
+
+#pic_logo1{
+	height:35px;
+	margin-top:15px;
+	border-radius: 10px;
+}
+
+#pic_logo2{
+	height:35px;
+	margin-top:15px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+#pic_logo3{
+	height:35px;
+	margin-top:15px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+/*for projects.html*/
+
+.gallery-item img{
+	max-width: 250px;
+	max-height: 150px;
+
+}
+
+.gallery-item{
+	display: inline-block;
+	background-color: white;
+	padding:10px;
+	background-color: #edeff4;
+	border-radius: 5px;
+	margin-top: 50px;
+
+}
+
+.gallery-item .caption{
+	display:none;
+}
+
+#lightbox img{
+	height:80vh;
+}
+
+#lightbox{
+	position:fixed;	
+	background-color: rgba(0,0,0,0.8);
+	top:0;
+	width:100%;
+	height:100%;
+	text-align: center;
+	padding-top:40px;
+	color:white;
+}
+
+#lightbox-control{
+	display:inline-block;
+}
+
+.lightbox-close{
+	float:left;
+}
+
+#lightbox a{
+	color:white;
+}
+
+.hidden{
+	display:none;
+}
+
